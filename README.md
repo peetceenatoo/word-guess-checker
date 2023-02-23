@@ -11,9 +11,9 @@ Although, a few adjustments are enough to make it a playable game.
 
 ## Game Rules
 
-A word is a string of $k$ characters in $a$ to $z$, $A$ to $Z$, $0$ to $9$, $-$ or $_$.
+A word is a string of $k$ characters in $a$ to $z$, $A$ to $Z$, $0$ to $9$, $-$ or $\\_$.
 The system will read from stdin information and instructions and print strings, namely:<br/>
-    1. the value $k$, which is the length for the current game;<br/>
+    1. the value $k$, which is the length for the current game;<br/> 
     2. a sequence of words, which compose the dictionary of allowed words (HP: no duplicates);<br/>
     3. the instruction "$+nuova_partita$".<br/>
 When that happens, the game starts. The system will now read:<br/>
