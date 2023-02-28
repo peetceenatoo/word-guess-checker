@@ -31,7 +31,7 @@ When the game ends, it can only read "$+nuova_partita$" to start a new game or "
 
 ## Data structure and time complexity
 
-A Patricia Trie implements the dictionary. Through this data structure:<br/>
+I used a Patricia Trie to implement the dictionary of allowed words. Due to this choice:<br/>
     1. the time required to find a word in the dictionary (to check if it's allowed) is $O(k)$;<br/>
     2. the time required to insert a word in the dictionary is $O(k)$;<br/>
     3. if a wrong character is detected in the current word, or if, while visiting the trie, the number of occurrences of a character is higher than the number of occurrences of such character in the reference word, it is no more needed to visit the nodes below such word, so a whole sub-trie gets cut off, which makes the filtering function much faster.
