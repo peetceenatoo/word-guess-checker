@@ -2,11 +2,11 @@
 
 ## Warning
 
-This code is not meant to be a final product. Through this code, it is possible to easily implement a game such as Wordle, but:<br/>
+This code is not meant to be a final product. Through this code, it is possible to easily implement a game such as Wordle, but:<br/><br/>
     1. there is no input check;<br/>
     2. the user is supposed to enter the word to guess and then guess the word.<br/>
     3. the 4 instructions to be entered are coded in the Italian language.<br/>
-    4. there is no GUI.<br/>
+    4. there is no GUI.<br/><br/>
 Although, a few adjustments are enough to make it a playable game.
 
 ## Game Rules
@@ -31,7 +31,7 @@ When the game ends, it can only read "+nuova_partita" to start a new game or "+i
 
 ## Data structure and time complexity
 
-I used a Patricia Trie to implement the dictionary of allowed words. Due to this choice:<br/>
+I used a Patricia Trie to implement the dictionary of allowed words. Due to this choice:<br/><br/>
     1. the time required to find a word in the dictionary (to check if it's allowed) is $O(k)$;<br/>
     2. the time required to insert a word in the dictionary is $O(k)$;<br/>
     3. if a wrong character is detected in the current word, or if, while visiting the trie, the number of occurrences of a character is higher than the number of occurrences of such character in the reference word, it is no more needed to visit the nodes below such word, so a whole sub-trie gets cut off, which makes the filtering function much faster.
