@@ -2,12 +2,12 @@
 
 ## Warning
 
-This code is not meant to be a final product. Through this code, it is possible to easily implement a game such as Wordle, but:<br/><br/>
-    1. There is no input check;<br/>
-    2. The user is supposed to enter the word to guess and then guess the word.<br/>
-    3. The 4 instructions to be entered are coded in the Italian language.<br/>
-    4. There is no GUI.<br/><br/>
-Although, a few adjustments are enough to make it a playable game.
+This code is not meant to be a "final product":<br/><br/>
+    1. No input check;<br/>
+    2. User is supposed to enter the word to guess and then guess the word;<br/>
+    3. Italian language;<br/>
+    4. No GUI.<br/><br/>
+Although, a few adjustments are enough to make it a playable game; it is a good starting point to easily implement a game such as Wordle achieving high performance.
 
 ## Game Rules
 
