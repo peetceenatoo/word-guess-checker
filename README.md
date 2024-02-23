@@ -3,8 +3,8 @@
 ## Warning
 
 This code is not meant to be a "final product":<br/><br/>
-    1. No input check;<br/>
-    2. User is supposed to enter the word to guess and then guess the word;<br/>
+    1. No input validation;<br/>
+    2. User is supposed to enter the word to guess and then to guess the word;<br/>
     3. Italian language;<br/>
     4. No GUI.<br/><br/>
 Although, a few adjustments are enough to make it a playable game; it is a good starting point to easily implement a game such as Wordle achieving high performance.
